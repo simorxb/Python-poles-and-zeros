@@ -44,6 +44,7 @@ t, yout = ct.step_response(T, T_num=100)
 
 plt.plot(t, yout)
 plt.ylabel("Output")
+plt.xlabel("Time [s]")
 plt.grid()
 
 plt.show()
